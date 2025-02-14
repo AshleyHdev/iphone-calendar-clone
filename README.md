@@ -1,3 +1,81 @@
+📅 iPhone Calendar
+
+A JavaScript + PWA-based iPhone-style calendar application
+
+This project enhances the iPhone event calendar, providing a direct user interface for schedule management, offline support, and PWA installation.
+
+📌 Project Screenshots (To Be Updated with Actual Images)
+
+✨ Key Features
+
+✅ 📆 Calendar Display
+ • Automatically displays the current month
+ • Navigate to the previous or next month
+ • Today’s date is highlighted in blue
+ • Selected date is highlighted in gold
+
+✅ 📌 Schedule Management
+ • Add Events: Enter event name, date, time, and repeat days
+ • View Events: Select a date to view scheduled events
+ • Delete Events: Remove individual events
+
+✅ 🛠️ PWA Support
+ • Installable on mobile & desktop, works like an app
+ • Offline mode support via Service Worker
+ • Preloads static files for fast access, even without internet
+
+✅ 📂 Local Storage
+ • Event data is stored in LocalStorage
+ • Users can reopen the app and see previously saved events
+
+🛠️ Technology Stack
+
+Technology Purpose
+HTML5 Page structure
+CSS3 + Grid Layout iPhone-style UI design
+JavaScript (ES6) Calendar interactivity
+LocalStorage Event data storage
+Service Worker Enables PWA & offline use
+Manifest.json Allows installation as a PWA app
+
+💻 Installation & Usage
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/AshleyHdev/iphone-calendar-clone.git  
+cd iphone-calendar-clone  
+
+2️⃣ Start a Local Static Server (For Testing)
+
+Quickly launch using Python:
+
+python -m http.server 8000  
+
+Then, open your browser and visit:
+http://127.0.0.1:8000/index.html
+
+📲 How to Install as a PWA
+
+📌 Install on Mobile or Desktop
+ 1. Open the web page in Google Chrome / Edge / Safari
+ 2. Click the “Install” button or “Add to Home Screen”
+ 3. The app will be installed and can be launched directly from the home screen
+
+📌 Project Structure
+
+iphone-calendar-clone/
+│── index.html            # Calendar homepage  
+│── style.css             # UI styles  
+│── script.js             # Core functionality (Calendar + Event Management)  
+│── manifest.json         # PWA configuration  
+│── service-worker.js     # Service Worker for offline support  
+
+🚀 Future Enhancements
+
+🔹 Cloud Sync: Support for Firebase or Google Calendar API
+🔹 Push Notifications: Send reminders when an event is due
+🔹 UI Improvements: Enhance animations and user experience
+
 📅 iPhone 行事曆
 
 基於 JavaScript + PWA 的 iPhone 風格行事曆應用
