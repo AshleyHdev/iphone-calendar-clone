@@ -153,7 +153,3 @@ iphone-calendar-clone/
 🔹 雲端同步：支援 Firebase 或 Google Calendar API
 🔹 通知提醒：行程時間到時發送通知
 🔹 更多 UI 優化：改善介面動畫與使用者體驗
-
-📩 聯絡資訊
-
-如果有任何問題或建議，請聯絡 📧 ashleyh.dev@gmail.com 🚀
